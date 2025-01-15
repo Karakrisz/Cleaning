@@ -1,5 +1,5 @@
 import { findIndex, omit } from '@dword-design/functions';
-export default (async (body, options, transport) => {
+export default async (body, options, transport) => {
   body = {
     config: 0,
     ...body
@@ -17,4 +17,4 @@ export default (async (body, options, transport) => {
     ...omit(['config', 'to', 'cc', 'bcc'])(body),
     ...omit(['name'])(options.message[body.config])
   });
-});
+};
