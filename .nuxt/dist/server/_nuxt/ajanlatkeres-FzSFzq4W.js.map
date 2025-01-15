@@ -1,0 +1,1 @@
+{"version":3,"file":"ajanlatkeres-FzSFzq4W.js","sources":["../../../../pages/ajanlatkeres.vue"],"sourcesContent":["<script setup>\nuseHead({\n  title: 'Ajánlatkérés',\n})\n</script>\n\n<template>\n  <div class=\"subpage-content subpage-footer-content\"></div>\n</template>\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;AACA,YAAQ;AAAA,MACN,OAAO;AAAA,IACT,CAAC;;;;;;;;;;;;"}
